@@ -1,4 +1,3 @@
-```python
 import os
 import hmac
 import psycopg2
@@ -590,4 +589,3 @@ def settings():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=int(os.getenv('PORT', '5000')), debug=False)
-```
